@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+links = ["http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association", "https://dev.twitter.com/rest/tools/console"]
