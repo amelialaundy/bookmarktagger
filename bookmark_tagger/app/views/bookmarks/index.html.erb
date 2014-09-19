@@ -1,0 +1,6 @@
+<h3>Your current bookmarks:</h3>
+<ul>
+<% @bookmarks.each do |bookmark| %>
+<li><a href='<%= bookmark.link%>'><%= bookmark.name %></a></li>
+<% end %>
+</ul>

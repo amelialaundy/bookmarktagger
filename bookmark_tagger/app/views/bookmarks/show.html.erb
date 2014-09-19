@@ -1,0 +1,20 @@
+<p>
+  <strong>Name:</strong>
+  <%= @bookmark.name %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @bookmark.link %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <% @bookmark.tags.each do |tag| %>
+    <%= tag.name %>
+  <% end %>
+</p>
+
+<%= link_to 'Back', bookmarks_path %>
+
+
