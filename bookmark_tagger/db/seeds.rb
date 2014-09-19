@@ -10,8 +10,10 @@ links = ["http://guides.rubyonrails.org/association_basics.html#the-has-many-thr
 names = ["rails associations", "twitter api console", "wolfram Technological World"]
 
 
-links.each_with_index do |link, i|
-  Bookmark.create(name: names[i], link: link)
-end
+# links.each_with_index do |link, i|
+#   Bookmark.create(name: names[i], link: link)
+# end
 
-Tag.create(name: "tech")
+# Tag.create(name: "tech")
+
+User.create(username: "amelia", password: "password")
